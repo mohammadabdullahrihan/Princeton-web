@@ -4,7 +4,7 @@ const WhyShantaPhoto = () => {
   return (
     <section>
       <div>
-        <h1 className="lg:text-8xl font-bold text-center uppercase">Why Princeton Development Ltd?</h1>
+        <h1 className="lg:text-8xl font-bold text-center uppercase mb-24">Why Princeton Development Ltd?</h1>
       </div>
       <div>
         <img  loading="lazy" src={whyShantaPhoto} alt="" />

@@ -6,10 +6,10 @@ const FooterWithoutResponsive = () => {
             <li className=" hover:text-[#b6af61] hover:underline cursor-pointer">Hotline: 16634</li>
             <li className=" hover:text-[#b6af61] hover:underline cursor-pointer">Sales: +88017151415</li>{" "}
             <li className=" hover:text-[#b6af61] hover:underline cursor-pointer">
-              Email: info@innovative.it.com
+              Email: mohammadabdullahrihan@gmail.com
             </li>
             <p className="text-sm  mt-10 ">
-              Copyright © {new Date().getFullYear()} - All right reserved by Innovative It Ltd
+              Copyright © {new Date().getFullYear()} - All right reserved by Rayyan Quantum Al Labs
             </p>
           </ul>
         </nav>

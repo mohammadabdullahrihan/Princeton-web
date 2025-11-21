@@ -32,23 +32,23 @@ const Footer = () => {
             <ul className={`text-lg sm:text-xl md:text-2xl ${darkMode ? 'text-white' : 'text-[#3c3c3b]'}`}>
               <li className="hover:text-[#b6af61] hover:underline cursor-pointer text-[1.1rem] mb-2">
                 <span className="flex items-center gap-3 hover:gap-5">
-                  Hotline: {contactData.hotline} <BsArrowUpRight />
+                  Hotline: +8801612556603 <BsArrowUpRight />
                 </span>
               </li>
               <li className="hover:text-[#b6af61] hover:underline cursor-pointer text-[1.1rem] mb-2">
                 <span className="flex items-center gap-3 hover:gap-5">
-                  Sales: {contactData.sales} <BsArrowUpRight />
+                  Sales: +8801612556603 <BsArrowUpRight />
                 </span>
               </li>
               <li className="hover:text-[#b6af61] hover:underline cursor-pointer text-[1.1rem] mb-4">
                 <span className="flex items-center gap-3 hover:gap-5">
-                  Email: {contactData.email} <BsArrowUpRight />
+                  Email: princetondevelopmentltd@gmail.com <BsArrowUpRight />
                 </span>
               </li>
               <li>
                 <p className="text-sm mt-6 text-center md:text-left">
                   Copyright © {new Date().getFullYear()} - All rights reserved by
-                  Innovative IT Ltd
+                  Rayyan Quantum Al Labs
                 </p>
               </li>
             </ul>
@@ -60,7 +60,7 @@ const Footer = () => {
               Address
             </h3>
             <p className="mb-6 text-center md:text-left">
-              {contactData.address}
+              196 Green Road (2nd floor), Opposite Dhaka Tower,Dhanmondi, Dhaka, Bangladesh, 1205
             </p>
             
             {/* Social Media Icons */}

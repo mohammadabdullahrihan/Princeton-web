@@ -43,7 +43,7 @@ const Home = () => {
       <div className="lg:mb-0 mb-40">
         <OurClients></OurClients>
       </div>
-      <div className="-mt-[45rem]">
+      <div className="-mt-[45rem] mb-[10rem]">
         <LetConnect></LetConnect>
       </div>
     </div>
