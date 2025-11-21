@@ -45,7 +45,7 @@ const Values = () => {
     );
   }
   return (
-    <section className="bg-[#212121]">
+    <section className="bg-black">
       <div>
         <h1 className="lg:text-8xl text-white text-center mb-15 pt-10">
           <span className="lg:mr-40">V</span>

@@ -12,7 +12,7 @@ const Main = () => {
         <div 
           className="scroll-smooth"
           style={{
-            backgroundColor: darkMode ? "#212121" : "white", 
+            backgroundColor: darkMode ? "black" : "white", 
             color: darkMode ? "white" : "black",
             scrollBehavior: 'smooth',
             WebkitOverflowScrolling: 'touch',

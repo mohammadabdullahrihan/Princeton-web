@@ -37,7 +37,7 @@ const SignUp = () => {
 
   return (
     <div
-      className={`${darkMode ? "bg-[#212121]" : "bg-white"} ${
+      className={`${darkMode ? "bg-black" : "bg-white"} ${
         darkMode ? "text-white" : "text-black"
       }`}
     >

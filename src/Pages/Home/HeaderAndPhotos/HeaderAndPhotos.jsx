@@ -17,16 +17,16 @@ const HeaderAndPhotos = () => {
     >
       <div
         style={{
-          backgroundColor: darkMode ? "#212121" : "white",
-          color: darkMode ? "white" : "#212121",
+          backgroundColor: darkMode ? "black" : "white",
+          color: darkMode ? "white" : "black",
         }}
         className="px-3 sm:px-8 lg:px-16 py-6"
       >
         {/* Header Section */}
-        <div className="text-center">
-          <div className="lg:flex gap-20">
+        <div className="flex flex-col items-center justify-center">
+          <div className="text-center">
             <h1
-              className={`text-5xl lg:text-7xl font-thin letter-spacing-6 mb-6 sm:mb-10 transition delay-150 ${
+              className={`inline-block text-5xl lg:text-7xl font-thin letter-spacing-6 mb-6 sm:mb-10 mr-12 transition delay-150 ${
                 darkMode ? "text-white" : "text-black"
               }`}
             >
@@ -43,7 +43,7 @@ const HeaderAndPhotos = () => {
               ))}
             </h1>
             <h1
-              className={`text-5xl lg:text-7xl font-thin letter-spacing-6 mb-6 sm:mb-10 transition delay-150 ${
+              className={`inline-block text-5xl lg:text-7xl font-thin letter-spacing-6 mb-6 sm:mb-10 transition delay-150 ${
                 darkMode ? "text-white" : "text-black"
               }`}
             >
