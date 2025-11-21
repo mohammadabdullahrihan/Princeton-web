@@ -1,11 +1,12 @@
-import OurBusinessDetails from "../OurBusinessDetails/OurBusinessDetails";
 import OurBusinessTitleAndPhoto from "../OurBusinessTitleAndPhoto/OurBusinessTitleAndPhoto";
+import { BentoGridSection } from "./BentoGridSection";
 
 const OurBusiness = () => {
     return (
         <div>
-            <OurBusinessTitleAndPhoto></OurBusinessTitleAndPhoto>
-            <OurBusinessDetails></OurBusinessDetails>
+            <OurBusinessTitleAndPhoto />
+            {/* <OurBusinessDetails /> */}
+            <BentoGridSection />
         </div>
     );
 };
