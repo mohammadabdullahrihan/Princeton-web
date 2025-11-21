@@ -20,7 +20,7 @@ const InvestmentBanner = () => {
         <div className="absolute inset-0 lg:flex flex-col items-center justify-center text-white font-sans text-center">
           <p className="text-3xl uppercase">Ideal Place to Invest</p>
           <h1 className="text-5xl font-bold text-[#beb52b] px-10">
-            Investment & Ownership Opportunities in Chuti Harmony
+            Investment & Ownership Opportunities in Princeton Development Ltd
           </h1>
         </div>
       </div>

@@ -26,7 +26,7 @@ const Admin = () => {
           <div className="flex-1">
             <h1 className="text-xl">
               {user?.email
-                ? "Welcome to Chuti Harmony Admin"
+                ? "Welcome to Princeton Development Ltd Admin"
                 : navigate("/login")}
             </h1>
             <h1 className="mx-10"></h1>

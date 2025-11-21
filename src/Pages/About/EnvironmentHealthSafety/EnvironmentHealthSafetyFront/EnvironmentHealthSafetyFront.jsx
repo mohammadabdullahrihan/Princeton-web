@@ -12,7 +12,7 @@ const EnvironmentHealthSafetyFront = () => {
             darkMode ? "text-white" : "text-black"
           } lg:text-8xl text-3xl text-center  uppercase font-sans`}
         >
-          Chuti Harmony <br /> Facilities
+          Princeton Development Ltd <br /> Facilities
         </h1>
       </div>
       <div className="mx-20">

@@ -5,7 +5,7 @@ const WhyChooseShanta = () => {
     <section className="text-center m-28">
       <div>
         <h1 className="text-4xl font-bold uppercase mb-10">
-          Why Choose Chuti Harmony
+          Why Choose Princeton Development Ltd
         </h1>
       </div>
       <div>

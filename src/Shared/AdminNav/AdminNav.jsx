@@ -23,14 +23,14 @@ const AdminNav = () => {
                loading="lazy"
                 src={navbarLogoForLight}
                 alt="Logo"
-                className="h-14 md:h-20"
+                className="h-20 md:h-32"
               />
             ) : (
               <img
                loading="lazy"
                 src={navbarLogoForDark}
                 alt="Logo"
-                className="h-14 md:h-20"
+                className="h-20 md:h-32"
               />
             )}
           </Link>

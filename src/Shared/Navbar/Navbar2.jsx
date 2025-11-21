@@ -9,8 +9,6 @@ import { CiMenuBurger } from "react-icons/ci";
 import { CiFacebook } from "react-icons/ci";
 import { FaInstagram } from "react-icons/fa";
 import { RiYoutubeLine } from "react-icons/ri";
-import { PiLinkedinLogo } from "react-icons/pi";
-import { FaTiktok } from "react-icons/fa6";
 import { MdOutlineArrowBackIosNew } from "react-icons/md";
 import "./Navbar2.css";
 
@@ -51,14 +49,14 @@ const Navbar2 = () => {
                loading="lazy"
                 src={navbarLogoForLight}
                 alt="Logo"
-                className="h-10 md:h-20"
+                className="h-20 md:h-32"
               />
             ) : (
               <img
                loading="lazy"
                 src={navbarLogoForDark}
                 alt="Logo"
-                className="h-10 md:h-20"
+                className="h-20 md:h-32"
               />
             )}
           </Link>
@@ -142,16 +140,16 @@ const Navbar2 = () => {
                   <MdOutlineKeyboardArrowRight className="ml-3 md:ml-5 text-3xl" />
                 </button>
               </li>
-              {/* <li className="pl-8">
+              <li className="pl-8 py-2">
                 <button
                   onClick={() => showSubMenu("projects")}
-                  className="flex items-center w-full hover:text-[#8F8933]"
+                  className="flex items-center w-full hover:text-[#8F8933] text-2xl"
                   style={{ marginTop: "0px" }}
                 >
                   Projects{" "}
-                  <MdOutlineKeyboardArrowRight className="ml-3 md:ml-5" />
+                  <MdOutlineKeyboardArrowRight className="ml-3 md:ml-5 text-3xl" />
                 </button>
-              </li> */}
+              </li>
               <li className="mt-6 pl-8 md:mt-12 hover:text-[#8F8933] text-2xl py-2">
                 <Link to="/gallery" onClick={handleCloseMenu}>
                   Gallery
@@ -226,11 +224,11 @@ const Navbar2 = () => {
                   Facilities
                 </Link>
               </li>
-              {/* <li className="hover:text-[#8F8933] px-7">
+              <li className="hover:text-[#8F8933] px-7">
                 <Link to={"/csr"} onClick={handleCloseMenu}>
                   CSR
                 </Link>
-              </li> */}
+              </li>
             </ul>
           )}
 

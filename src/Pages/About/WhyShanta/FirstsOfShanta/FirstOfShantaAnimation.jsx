@@ -49,7 +49,7 @@ const FirstOfShantaAnimation = () => {
         </SwiperSlide>
         <SwiperSlide>
           <div>
-            <p className="text-xl uppercase">Chuti Harmony</p>
+            <p className="text-xl uppercase">Princeton Development Ltd</p>
             <img  loading="lazy" className="h-96" src="https://i.ibb.co.com/DPSqkSBp/5.jpg" />
           </div>
         </SwiperSlide>

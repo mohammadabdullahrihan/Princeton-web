@@ -31,7 +31,7 @@ const AdminLayout = () => {
           <ul className="menu text-white min-h-full w-80 p-4 bg-[#8E8A20]">
             <div className="text-center mb-20">
               <Link to="/">
-                <p>Chuti Harmony</p>
+                <p>Princeton Development Ltd</p>
               </Link>
             </div>
             {/* Sidebar content here */}

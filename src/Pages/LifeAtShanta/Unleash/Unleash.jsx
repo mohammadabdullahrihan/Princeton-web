@@ -17,7 +17,7 @@ const Unleash = () => {
       <div>
         <h1 className="lg:text-7xl text-3xl text-center">
           Unleash Your <span className="font-bold">Potential</span> <br /> with{" "}
-          <span className="font-bold">Chuti Harmony's</span> Winning Team!
+          <span className="font-bold">Princeton Development Ltd's</span> Winning Team!
         </h1>
       </div>
       <div className="mt-20">

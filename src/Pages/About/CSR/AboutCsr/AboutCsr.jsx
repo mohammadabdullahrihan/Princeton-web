@@ -11,15 +11,15 @@ const AboutCsr = () => {
     setShowMore(!showMore);
   };
 
-  const detailsAboutCsr = `As part of its Corporate Social Responsibility (CSR), Chuti Harmony
-        Ltd. is the main founder and primary financier of Ashulia Women and
+  const detailsAboutCsr = `As part of its Corporate Social Responsibility (CSR), Princeton Development Ltd
+        is the main founder and primary financier of Ashulia Women and
         Children Hospital (AWCH). It is a fully philanthropic non-profit
         hospital located in Beron, Ashulia right on the Tongi -Ashulia-EPZ
         bypass road. This hospital’s mission is to support the overall
         development of women and children and the medical needs of the
         underprivileged segment of society. The Hospital runs and operates under
         a trust chaired by renowned national pediatrician Prof. Dr. M Q-K
-        Talukder. Mr. Khondoker Monir Uddin, the Managing Director of Chuti harmony, is
+        Talukder. Mr. Khondoker Monir Uddin, the Managing Director of Princeton Development Ltd, is
         a member of the Board of Trustees who acts as the chief advisor and
         counselor to the trust. This hospital has been in operation since 2004,
         occupying a land area of 3.76 acres with a current built-up area of
