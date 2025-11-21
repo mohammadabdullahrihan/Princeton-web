@@ -1,0 +1,109 @@
+/* General Styles */
+.parallax-container {
+  position: relative;
+  background-attachment: fixed;
+  background-position-y: 100%; /* Set initial position to bottom */
+  height: 100vh;
+}
+
+.parallax-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 25%;
+  height: 25%;
+  object-fit: cover;
+  transform: translateY(100%); /* Initial offset to push image down */
+}
+
+.text-marque {
+  
+  padding: 10px;
+  border-radius: 5px;
+  position: relative;
+  z-index: 10; /* Higher than video */
+}
+
+.video-container {
+  position: relative;
+  z-index: 1; /* Lower than marquee */
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .parallax-container {
+    height: 80vh; /* Adjust height for tablets */
+  }
+
+  .parallax-container img {
+    width: 35%; /* Scale image width for tablets */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  .text-marque {
+    margin-top: -400px; /* Adjust for marquee text alignment */
+  }
+
+  .text-marque p {
+    font-size: 3rem; /* Scale down text size for tablets */
+    line-height: 1.2;
+  }
+}
+
+@media (max-width: 768px) {
+  .parallax-container {
+    height: 60vh; /* Further adjust height for mobile devices */
+  }
+
+  .parallax-container img {
+    width: 50%; /* Scale image further for smaller screens */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  .text-marque {
+    margin-top: -350px; /* Adjust marquee position for smaller screens */
+  }
+
+  .text-marque p {
+    font-size: 2rem; /* Reduce font size further for readability */
+    text-align: center;
+  }
+
+  
+}
+
+@media (max-width: 480px) {
+  .parallax-container {
+    height: 50vh; /* Further reduce height for very small devices */
+  }
+
+  .parallax-container img {
+    width: 70%; /* Scale image width for extra small screens */
+    left: 15%; /* Center the image horizontally */
+  }
+
+  .text-marque {
+    margin-top: -300px; /* Fine-tune marquee position */
+  }
+
+  .text-marque p {
+    font-size: 1.5rem; /* Smaller text for compact screens */
+    padding: 0 10px; /* Add padding for better readability */
+  }
+
+ 
+
+  video {
+    width: 100%; /* Scale video to fit small screens */
+  }
+
+  .flex.justify-end {
+    justify-content: center; /* Center the mute button */
+    margin-right: 0; /* Remove margin on small screens */
+  }
+
+  .flex.justify-end .border {
+    width: 50px;
+    height: 50px; /* Reduce size for the button */
+  }
+}

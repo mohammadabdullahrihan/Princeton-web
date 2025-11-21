@@ -1,0 +1,8 @@
+.font-familyFooter {
+  font-family: "Avenir", sans-serif;
+  font-size: clamp(1rem, 0.94rem + 0.3vw, 1.3rem);
+  font-weight: 500;
+  gap: 0.8rem;
+  
+  -webkit-tap-highlight-color: transparent;
+}

@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Arizonia&family=Oswald:wght@200..700&family=Yaldevi:wght@200..700&display=swap");
+
+.dropdown {
+  position: relative;
+  z-index: 1000;
+}
+
+.dropdown-content {
+  position: absolute;
+  z-index: 1001;
+}
+
+/* Keyframes for the slide-in and expand animation */
+@keyframes slideInAndExpand {
+  0% {
+    transform: translateX(100%); /* Start off-screen from the right */
+    width: 0; /* Start with no width */
+    opacity: 0; /* Hidden initially */
+  }
+  100% {
+    transform: translateX(0); /* Finish at the original position */
+    width: 100%; /* Full width */
+    opacity: 1; /* Fully visible */
+  }
+}
+
+/* Dropdown container (hidden by default) */
+.dropdown-content {
+  position: absolute;
+  top: 100%;
+  right: 0; /* Align it to the right */
+  background-color: rgba(0, 0, 0, 0.9); /* Dark background */
+  color: white; /* Text color */
+  z-index: 1001;
+  padding: 20px;
+  opacity: 0;
+  visibility: hidden;
+  width: 0;
+  transform: translateX(100%); /* Off-screen by default */
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* Show dropdown with animation when details is open */
+details[open] .dropdown-content {
+  visibility: visible;
+  opacity: 1;
+  animation: slideInAndExpand 0.8s ease forwards;
+  width: 250px; /* Target width after animation */
+}
+
+/* List items and links inside the dropdown */
+.dropdown-content li {
+  list-style: none;
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.dropdown-content li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.dropdown-content li a:hover {
+  color: #f0a500; /* Optional hover color */
+}
+
+.nav-font {
+  font-family: 'Avenir', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-left: 1rem
+}

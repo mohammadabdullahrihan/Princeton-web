@@ -1,0 +1,42 @@
+[
+  {
+    "_id": "1",
+    "name": "OWNERSHIP CATEGORIES",
+    "description": "There are 5 Categories of Ownership in Five star Chuti Resort ",
+    "category1": "Standard Category",
+    "category2": "Premimun Category",
+    "category3": "Platinum Category",
+    "category4": "Royal Category",
+    "category5": "Suite Category"
+  },
+  {
+    "_id": "2",
+    "name": "Standard Categories",
+    "description": "1 to 2 Unit Share 2 night 3 days Free Stay 40% Discount on Other Resort of Chuti Group",
+    "icon": "https://i.ibb.co.com/xKRr9PyR/vacations.png"
+  },
+  {
+    "_id": "3",
+    "name": "Premium Categories",
+    "description": "3 to 4 Unit Share 6 night 7 days Free Stay 45% Discount on Other Resort of Chuti Group",
+    "icon": "https://i.ibb.co.com/3y5gp4q6/calendar.png"
+  },
+  {
+    "_id": "4",
+    "name": "Platinum Categories",
+    "description": "5 to 9 Unit Share 6 night 7 days Free Stay 50% Discount on Other Resort of Chuti Group",
+    "icon": "https://i.ibb.co.com/s9dJ9jMd/fork.png"
+  },
+  {
+    "_id": "5",
+    "name": "Royal Categories",
+    "description": "10 to 20 Unit Share 21 night 20 days Free Stay 60% Discount on Other Resort of Chuti Group",
+    "icon": "https://i.ibb.co.com/XrjHntB8/tv-table.png"
+  },
+  {
+    "_id": "6",
+    "name": "Suite Categories",
+    "description": "21+ Unit Share 43 night 42 days Free Stay 60% Discount on Other Resort of Chuti Group",
+    "icon": "https://i.ibb.co.com/XrjHntB8/tv-table.png"
+  }
+]

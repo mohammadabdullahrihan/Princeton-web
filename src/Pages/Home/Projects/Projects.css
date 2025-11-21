@@ -1,0 +1,34 @@
+.font-familyProjects {
+  font-family: "Avenir", sans-serif;
+  font-size: calc(26.66667px + 3.7037vw);
+}
+
+.projectWordDesign {
+  color: transparent;
+  z-index: 2;
+  font-weight: 500;
+  line-height: 80%;
+  padding-right: 7.5%;
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+  -webkit-text-stroke: 2px #fff;
+
+  background: linear-gradient(to bottom, white 50%, black 50%);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.projectWordDesignForLight {
+  color: transparent;
+  z-index: 2;
+  font-weight: 500;
+  line-height: 80%;
+  padding-right: 7.5%;
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+  -webkit-text-stroke: 2px #1b1818;
+
+  background: linear-gradient(to bottom, black 50%, white 50%);
+  -webkit-background-clip: text;
+  background-clip: text;
+}

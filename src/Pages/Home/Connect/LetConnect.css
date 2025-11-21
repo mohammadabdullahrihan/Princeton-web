@@ -1,0 +1,38 @@
+.font-familyConnect {
+  font-family: "Avenir", sans-serif;
+  font-size: calc(26.66667px + 3.7037vw);
+  font-weight: 500;
+  line-height: 1.05;
+  white-space: wrap;
+  z-index: 1;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.styleForMainDiv {
+  margin: 0 auto;
+  padding: 0 0 0 7.5%;
+}
+
+.rightImageStyle {
+  height: 60vh;
+  max-height: 100vh;
+  overflow: hidden;
+  width: 60%;
+}
+/* 
+  
+  .projectWordDesign {
+      color: transparent;
+      z-index: 2;
+      font-weight: 500;
+      line-height: 80%;
+      padding-right: 7.5%;
+      -webkit-tap-highlight-color: transparent;
+      user-select: none;
+      -webkit-text-stroke: 2px #fff;
+      
+      background: linear-gradient(to bottom, white 50%, black 50%);
+      -webkit-background-clip: text;
+      background-clip: text;
+    }
+   */

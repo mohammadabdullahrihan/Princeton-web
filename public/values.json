@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Restaurant",
+    "detail": "Enjoy a fine dining experience with a diverse menu of local and international cuisines. Our restaurant offers a cozy ambiance, perfect for family dinners, romantic dates, or business meetings."
+  },
+  {
+    "title": "Coffee Shop",
+    "detail": "Relax and unwind at our coffee shop, serving freshly brewed coffee, teas, and pastries. Whether you're catching up with friends or working remotely, our coffee shop is the perfect spot."
+  },
+  {
+    "title": "Souvenir",
+    "detail": "Take home a piece of your journey with our unique souvenirs. From handmade crafts to locally sourced products, our souvenir shop has something special for everyone."
+  },
+  {
+    "title": "GYM",
+    "detail": "Stay fit and active during your stay with our state-of-the-art gym facilities. Equipped with modern machines and free weights, our gym caters to all your fitness needs."
+  },
+  {
+    "title": "SPA",
+    "detail": "Pamper yourself with a rejuvenating spa experience. Our spa offers a range of treatments, including massages, facials, and body scrubs, designed to relax and refresh your mind and body."
+  },
+  {
+    "title": "Saloon",
+    "detail": "Look your best with our professional salon services. From haircuts and styling to manicures and pedicures, our skilled stylists are here to help you feel confident and beautiful."
+  },
+  {
+    "title": "Juice Bar",
+    "detail": "Refresh yourself with a variety of healthy and delicious juices, smoothies, and shakes. Our juice bar uses fresh, organic ingredients to create the perfect blend for your taste buds."
+  },
+  {
+    "title": "Swimming Pool",
+    "detail": "Take a dip in our sparkling swimming pool, perfect for a refreshing swim or lounging by the water. Our pool area is equipped with comfortable seating and stunning views."
+  },
+  {
+    "title": "Helipad",
+    "detail": "For our esteemed guests arriving by air, we offer a fully functional helipad. Enjoy the convenience of direct access to our facility, ensuring a seamless and luxurious experience."
+  }
+]

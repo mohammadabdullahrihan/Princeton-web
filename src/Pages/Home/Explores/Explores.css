@@ -1,0 +1,34 @@
+.font-familyForExplores {
+  font-family: "Avenir", sans-serif;
+  font-size: calc(26.66667px + 3.7037vw);
+  font-weight: 500;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.exploreWordDesign {
+  color: transparent;
+  z-index: 2;
+  font-weight: 500;
+  line-height: 80%;
+  padding-right: 7.5%;
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+  -webkit-text-stroke: 2px #fff;
+  background: linear-gradient(to bottom, black 50%, white 50%);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.exploreWordDesignForLight {
+  color: transparent;
+  z-index: 2;
+  font-weight: 500;
+  line-height: 80%;
+  padding-right: 7.5%;
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+  -webkit-text-stroke: 2px #fff;
+  background: linear-gradient(to bottom, black 100%, white 25%);
+  -webkit-background-clip: text;
+  background-clip: text;
+}

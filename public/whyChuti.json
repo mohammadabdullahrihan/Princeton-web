@@ -1,0 +1,74 @@
+[
+  {
+    "id": "1",
+    "name": "Exceptional Customer Service",
+    "serviceOne": "Warm and Personalized Care",
+    "details": "Chuti Hotel staff are trained to provide personalized attention, ensuring guests feel valued and cared for.",
+    "serviceTwo": "24/7 Assistance",
+    "serviceTwoDescription": "Round-the-clock service ensures that every guest's needs are promptly met.",
+    "img": "https://i.ibb.co.com/6BYbr6w/7.jpg"
+  },
+  {
+    "id": "2",
+    "name": "Premium Accommodation",
+    "serviceOne": "Comfortable and Elegant Rooms",
+    "details": "Chuti offers well-appointed rooms and suites designed for relaxation and luxury.",
+    "Modern Amenities": "24/7 Assistance",
+    "serviceTwoDescription": "High-speed Wi-Fi, plush bedding, and in-room entertainment systems cater to the needs of both business and leisure travelers.",
+    "img": "https://i.ibb.co.com/GVQpwfG/1.jpg"
+  },
+  {
+    "id": "3",
+    "name": "Scenic and Strategic Location",
+    "Surrounded by Nature": "Warm and Personalized Care",
+    "details": "Chuti's locations are often nestled amidst tranquil natural surroundings, offering a serene escape from busy city life",
+    "serviceTwo": "Convenience",
+    "serviceTwoDescription": " Close proximity to major transport hubs and attractions makes it an ideal choice for travelers.",
+    "img": "https://i.ibb.co.com/DzZJGp5/4.jpg"
+  },
+  {
+    "id": "4",
+    "name": "Culinary Excellence",
+    "serviceOne": "Authentic Dining Experiences",
+    "details": "Chuti Hotels feature a variety of cuisines, prepared by skilled chefs using the freshest ingredients.",
+    "serviceTwo": "Local and International Dishes",
+    "serviceTwoDescription": "Guests can savor authentic local delicacies as well as international favorites.",
+    "img": "https://i.ibb.co.com/cYVXzHx/5.jpg"
+  },
+  {
+    "id": "5",
+    "name": "World-Class Facilities",
+    "serviceOne": "Leisure and Wellness Options",
+    "details": "Swimming pools, spas, and fitness centers provide avenues for relaxation and rejuvenation.",
+    "serviceTwo": "Business-Friendly Amenities",
+    "serviceTwoDescription": "Conference rooms, event spaces, and high-speed internet cater to corporate travelers.",
+    "img": "https://i.ibb.co.com/cYVXzHx/5.jpg"
+  },
+  {
+    "id": "6",
+    "name": "Activities for All Ages",
+    "serviceOne": " From play areas for kids to excursions for adults, Chuti Hotels ensure every family member enjoys their stay.",
+    "details": "Chuti Hotel staff are trained to provide personalized attention, ensuring guests feel valued and cared for.",
+    "serviceTwo": "Safe and Inclusive Atmosphere",
+    "serviceTwoDescription": "Focus on creating a welcoming environment for families and solo travelers alike.",
+    "img": "https://i.ibb.co.com/g6js1sH/6.jpg"
+  },
+  {
+    "id": "7",
+    "name": "Value for Money",
+    "serviceOne": "Competitive Pricing",
+    "details": "Chuti offers luxury experiences at affordable rates.",
+    "serviceTwo": "Exclusive Packages",
+    "serviceTwoDescription": "Seasonal discounts and all-inclusive deals provide added value.",
+    "img": "https://i.ibb.co.com/yp0H29x/8.jpg"
+  },
+  {
+    "id": "8",
+    "name": "Commitment to Sustainability",
+    "serviceOne": "Eco-Friendly Practices",
+    "details": " Chuti prioritizes sustainability, incorporating green initiatives like waste reduction and energy-efficient operations.",
+    "serviceTwo": "Support for Local Communities",
+    "serviceTwoDescription": "Collaborations with local artisans and producers reflect a commitment to responsible tourism",
+    "img": "https://i.ibb.co.com/DzZJGp5/4.jpg"
+  }
+]

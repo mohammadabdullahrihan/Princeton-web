@@ -1,0 +1,13 @@
+.projectNameDesignForLight {
+  color: transparent;
+  z-index: 2;
+  font-weight: 500;
+  line-height: 1;
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+  -webkit-text-stroke: 2px rgb(22, 1, 1);
+  background: linear-gradient(to bottom, rgb(255, 249, 249) 50%, rgb(29, 27, 27) 50%),;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+

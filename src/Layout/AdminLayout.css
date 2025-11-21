@@ -1,0 +1,18 @@
+/* Default state (collapsed) */
+.dropdown .arrow-down {
+    display: none; /* Hide down arrow when collapsed */
+  }
+  
+  .dropdown .arrow-right {
+    display: inline; /* Show right arrow when collapsed */
+  }
+  
+  /* Expanded state (open) */
+  .dropdown[open] .arrow-down {
+    display: inline; /* Show down arrow when expanded */
+  }
+  
+  .dropdown[open] .arrow-right {
+    display: none; /* Hide right arrow when expanded */
+  }
+  

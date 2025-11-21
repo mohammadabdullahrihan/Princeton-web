@@ -1,0 +1,13 @@
+.text-stroke-white {
+  -webkit-text-stroke: 0.5px white; /* Works in Chrome, Safari, and other WebKit browsers */
+  color: transparent; /* Make the text color transparent */
+  text-shadow: -1px -1px 0 rgb(10, 9, 9), 1px -1px 0 rgb(0, 0, 0),
+    -1px 1px 0 rgb(7, 6, 6), 1px 1px 0 rgb(0, 0, 0); /* Fallback for browsers that don't support -webkit-text-stroke */
+}
+
+.text-stroke-black {
+  -webkit-text-stroke: 1px rgb(0, 0, 0); /* Works in Chrome, Safari, and other WebKit browsers */
+  color: transparent; /* Make the text color transparent */
+  text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255),
+    -1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255); /* Fallback for browsers that don't support -webkit-text-stroke */
+}

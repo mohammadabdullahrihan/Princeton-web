@@ -1,0 +1,13 @@
+.slider-container {
+  display: flex; /* Allow flexbox layout */
+  position: relative; /* Needed for positioning background slider */
+}
+
+.background-slider {
+  position: absolute; /* Make background slider fill entire container */
+  top: 0;
+}
+
+.featureProject-font {
+  font-family: "Avenir", sans-serif;
+}

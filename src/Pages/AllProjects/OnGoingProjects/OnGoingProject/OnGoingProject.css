@@ -1,0 +1,43 @@
+.project-card {
+    border: 1px solid red;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  
+  .project-image {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .project-card:hover .project-image {
+    transform: scale(1.1); /* Zoom effect */
+  }
+  
+  .view-details {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 100px;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    pointer-events: none; /* Prevent interference with click */
+    backdrop-filter: blur(5px); /* Adds blur effect to the background */
+    transition: transform 0.1s ease;
+  }
+  
+  .project-card:hover .view-details {
+    opacity: 1; /* Ensure visibility on hover */
+  }
+  
+  .view-details {
+    opacity: 0; /* Hidden initially */
+  }
+  

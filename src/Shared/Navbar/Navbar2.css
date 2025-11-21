@@ -1,0 +1,65 @@
+/* Navbar2.css */
+.navbar-container {
+  position: relative;
+}
+
+.menu-container {
+  overflow-y: auto;
+}
+
+.menu-list {
+  list-style: none;
+  padding: 0;
+}
+
+.menu-list li {
+  margin-bottom: 10px;
+}
+
+.menu-list li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.menu-list li button {
+  background: none;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+  padding: 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 10px;
+  }
+
+  .menu-container {
+    width: 250px;
+  }
+
+  .menu-list {
+    padding: 10px;
+  }
+
+  /* Search input animation */
+  .search-input {
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .search-input:focus {
+    transform: scale(1.02);
+    box-shadow: 0 2px 8px rgba(143, 137, 51, 0.2);
+  }
+  
+  .search-input::placeholder {
+    transition: all 0.3s ease;
+  }
+  
+  .search-input:focus::placeholder {
+    transform: translateY(-5px);
+    font-size: 0.9em;
+    opacity: 0.7;
+  }
+}
